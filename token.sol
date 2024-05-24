@@ -16,7 +16,7 @@ interface ERC20Interface{
 }
  
 //Actual token contract 
-contract DIOToken is ERC20Interface{
+contract PheToken is ERC20Interface{
     string public symbol = "PHE" ;
     string public  name = "Phe Coin";
     uint8 public decimals = 2;
